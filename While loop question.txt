@@ -1,0 +1,679 @@
+# prime number using while loop
+# n=int(input("enter any number:"))
+# i=1
+# stage=False
+# while i<n:
+#     if n%2==0:
+#         stage=True
+#     if n==2:
+#         stage=False
+#     i+=1
+# if stage:
+#     print("not prime")
+# else:
+#     print("prime number:")
+# -------------------------------------
+# a=int(input("enter number:"))
+# stage=False
+
+# for i in range(1,a+1):
+#     if a%2==0:
+#         stage=True
+#     if i==2:
+#         stage=False
+   
+# if stage:
+#     print("not prime")
+# else:
+#     print("prime number")
+# ------------------------------
+# #Nested while Loop
+# n=int(input("give me number:"))
+# k=2
+# while k<=n:
+#     d=2
+#     stage=False
+#     while d<k:
+#         if k%d==0:
+#             stage=True
+#         d+=1
+#     if stage:
+#         print(k,"not prime::::::::::::;;;;;")
+#     else:
+#         print(k,"prime number:::;;;;;::::")
+#     k+=1  
+
+
+
+
+
+
+
+# n=int(input("enter number:"))
+# d=2
+# fage=False
+# while d<n:
+#     if n%d==0:
+#         fage=True
+#     d+=1
+# if fage:
+#     print("not prime")
+# else:
+#     print("prime")
+# #prime number using nested while loop
+# n=int(input("enter number:"))
+# d=2
+# while d<=n:
+#     k=2
+#     fage=False
+#     while k<d:
+#         if d%k==0:
+#             fage=True
+#         k+=1
+#     if not(fage):
+#         print(d)
+#     d+=1
+# #making even number wth nested while loop
+# a=int(input("enter:"))
+# i=0
+# while i<=a:
+#     e=0
+#     while e<=i:
+#         if i%2==0:
+#             print(i,"even number:")
+#             break
+#         e+=1
+#     i+=1
+
+# s=int(input())
+# e=int(input())
+# step=int(input())
+# stage=s
+# while stage<=s:
+#     c=stage-32*(5//9)
+#     print(str(stage)+"\t"+str(int(c)))
+#     stage+=step
+# -------------------------------------------------
+# #patern
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=n:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1
+
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=n:
+#         print(j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=n:
+#         print(i,end="")
+#         j+=1
+#     print()
+#     i+=1
+    
+
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=n:
+#         print(j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=0
+#     while j<n:
+#         print(n-j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+
+# 1
+# 12
+# 123
+# 1234
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=i:
+#         print(j,end="")
+        
+#         j+=1
+#     print()
+#     i+=1
+
+
+# 1
+# 23
+# 345
+# 4567
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=0
+#     while j<i:
+#         print(i+j,end="")
+        
+#         j+=1
+#     print()
+#     i+=1
+
+# 1
+# 23
+# 456
+# 78910
+# n=int(input())
+# i=1
+# s=1
+# while i<=n:
+#     j=1
+    
+#     while j<=i:
+#         print(s,end="")
+#         j+=1
+#         s+=1
+#     print()
+#     i+=1
+# 4
+# 1 
+# 2 1
+# 3 2 1
+# 4 3 2 1
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=0
+#     while j<i:
+#         print(i-j,end=" ")
+#         j+=1
+#     print()
+#     i+=1
+# print(ord("A"))
+
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# print(ord("A"))
+# print(chr(65))
+# k=int(input())
+
+# print(chr(ord('A')+k-1))
+
+
+# A B C D 
+# A B C D
+# A B C D
+# A B C D
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=n:
+#         p=chr(ord("A")+j-1)
+#         print(     p   ,end=" ")
+#         j+=1
+#     print()
+#     i+=1
+
+
+# A B C D 
+# B C D E
+# C D E F
+# D E F G
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     start_chr=chr(ord("A")+i-1)
+#     while j<=n:
+#         p=chr(ord(start_chr)+j-1)
+#         print(     p   ,end=" ")
+#         j+=1
+       
+#     print()
+#     i+=1
+
+# A
+# B C
+# C D E
+# D E F G
+# n=int(input())
+# i=1
+
+# while i<=n:
+#     j=1
+#     s=chr(ord("A")+i-1)
+#     while j<=i:
+#         p=chr(ord(s)+j-1)
+#         print(p,end=" ")
+#         j+=1
+#     print()
+#     i+=1
+
+# 5
+# E
+# D E
+# C D E
+# B C D E
+# A B C D E
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     s=chr(ord("A")+n-i)
+#     while j<=i:
+#         p=chr(ord(s)+j-1)
+#         print(p,end=" ")
+#         j+=1
+#     print()
+#     i+=1
+
+
+# 5
+# 1
+# 1 1 
+# 2 0 2 
+# 3 0 0 3 
+# 4 0 0 0 4 
+# 5 0 0 0 0 5 
+# n=int(input())
+# print(1)
+# i=1
+# while i<=n:
+#   j=0
+#   while j<=i:
+#     if (j==0 or j==i ):
+#       print(i,end=" ")
+#     else:
+#       print(0,end=" ")
+#     j+=1
+#   i+=1
+#   print()
+
+# 5
+# 1 
+# 1 1
+# 1 2 1
+# 1 2 2 1
+# 1 2 2 2 1
+# n=int(input())
+# # print(1)
+# i=0
+# while i<n:
+#   j=0
+#   while j<i+1:
+#     if (j==0 or j==i ):
+#       print(1,end=" ")
+#     else:
+#       print(2,end=" ")
+#     j+=1
+#   i+=1
+#   print()
+
+# 4
+# 1 2 3 4 
+# 1 2 3
+# 1 2
+# 1
+
+# n=int(input())
+# # print(1)
+# i=0
+# while i<n:
+#   j=1
+#   while j<n-i+1:
+#     print(j,end=" ")
+#     j+=1
+#   i+=1
+#  
+# 
+#  print()
+
+
+
+# A 
+# B B
+# C C C
+# D D D D
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     s=ord("A")+i-1
+#     while j<=i:
+        
+#         print(chr(s),end=" ")
+#         j+=1
+#     print()
+#     i+=1
+
+
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=n-i+1:
+#         print("%",end=" ")
+#         j+=1
+#     print()
+#     i+=1
+
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=n-i+1:
+#         print(i,end=" ")
+#         j+=1
+#     i+=1
+#     print()
+
+# 
+#       1
+#     1 2
+#   1 2 3
+# 1 2 3 4
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=n-i:
+#         print(" ",end=" ")
+#         j+=1
+#     s=1
+#     while s<=i:
+#         print(s,end=" ")
+#         s+=1
+#     print()
+#     i+=1
+    
+
+
+# 4
+#       1 
+#     1 2 1
+#   1 2 3 2 1
+# 1 2 3 4 3 2 1
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=n-i:
+#         print(" ",end=" ")
+#         j+=1
+#     s=1
+#     while s<=i:
+#         print(s,end=" ")
+#         s+=1
+#     p=i-1
+#     while p>=1:
+#         print(p,end=" ")
+#         p-=1
+#     i+=1
+#     print()
+
+
+# 4
+#       1 
+#     2 3 2
+#   3 4 5 4 3
+# 4 5 6 7 6 5 4
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=n-i:
+#         print(" ",end=" ")
+#         j+=1
+#     s=1
+#     while s<=i:
+#         print(i+s-1,end=" ")
+#         s+=1
+#     p=i-1 
+#     while p>=1:
+#         print(p+i-1,end=" ")
+#         p-=1
+#     i+=1
+#     print()
+
+
+# 7
+#       * 
+#     * * *
+#   * * * * *
+# * * * * * * *
+#   * * * * *
+#     * * *
+#       *
+# n=int(input())
+# h=(n+1)//2
+# i=1
+# while i<=h:
+#     j=1
+#     while j<=h-i:
+#         print(" ",end=" ")
+#         j+=1
+#     s=1
+#     while s<=i:
+#         print("*",end=" ")
+#         s+=1
+#     p=i-1
+#     while p>=1:
+#         print(("*"),end=" ")
+#         p-=1
+#     i+=1
+#     print()
+# i=1
+# z=(n-1)/2
+# while i<=z:
+#     f=1
+#     while f<=i:
+#         print(" ",end=" ")
+#         f+=1
+#     c=1
+#     while c<=n-2*i:
+#         print("*",end=" ")
+#         c+=1
+   
+#     i+=1
+#     print()
+
+
+
+
+# 4
+# 1             1 
+# 1 2         2 1
+# 1 2 3     3 2 1
+# 1 2 3 4 4 3 2 1
+#first part
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=i:
+#         print(j,end=" ")
+
+#         j+=1
+#     #second part
+#     s=1
+#     t=2*n-2*i
+#     while s<n-1:
+#         print(t*" ",end="")
+#         s+=1
+#     #3rd part
+#     r=0
+#     while r<i:
+#         print(i-r,end=" ")
+#         r+=1
+#     i+=1
+#     print()
+
+
+# n=int(input())
+# r=int(input())
+# n_fact=1
+# for i in range(1,n+1):
+#     n_fact*=i
+# r_fact=1
+# for i in range(1,r+1):
+#     r_fact*=i
+# n_r_fact=1
+# for i in range(1,n-r+1):
+#     n_r_fact*=i
+# ans=n_fact//(r_fact*n_r_fact)
+# print(ans)
+
+
+
+# n=int(input())
+# def fact(n):
+
+#     n_fact=1
+#     for i in range(1,n+1):
+#         n_fact*=i
+#     return n_fact
+# a=fact(4)
+# print(a)
+
+# t=int(input())
+# r=int(input())
+# n_facct=fact(t)
+# r_fact=fact(r)
+# n_r_fact=fact(t-r)
+# ans=n_facct//(r_fact*n_r_fact)
+# print(ans)
+
+
+
+# def isprime(n):
+#     for i in range(2,n):
+#         if n%i==0:
+#             break
+#         else:
+#             return True
+#         return "False"
+# print(isprime(20))
+
+
+# def primefrom2ton(n):
+#     for k in range(2,n+1):
+#         is_k_prime = isprime(k)
+#         if (is_k_prime):
+#             print(k)
+
+# print(primefrom2ton(20))
+
+
+# def ncr(t,r):
+#     n_facct=fact(t)
+#     r_fact=fact(r)
+#     n_r_fact=fact(t-r)
+#     ans=n_facct//(r_fact*n_r_fact)
+#     return ans
+#     # print(ans)
+# print(ncr(5,2))
+
+# a=10
+# d=23
+# def fun():
+#     f=12
+#     print(f)
+#     print(a)
+#     print(d)
+#     # return f
+# print(a)
+# fun()
+
+
+
+# def fun():
+#     f=12
+#     print(f)
+#     print(a)
+#     print(d)
+#     # return f
+# a=10
+
+# print(a)
+# d=23
+# fun()
+
+
+# a=10
+# def fun():
+#     global a
+#     a=12
+#     # print(a)   
+# print(a)
+# fun()
+# print(a)
+
+# PASSING VARIABLE THROUGH FUNCTION
+# def increment(a):
+#     a+=2
+#     return a
+# a=int(input())
+# a=increment(a)
+# print(a)
+ 
+# PASSING LIST THROUGH FUNCTION:
+# ----------------------------
+# def increment(li):
+#     li[1]+=2
+#     li=[3,3,9]
+#     # return li
+# li=[1,2,3,4,5]
+# increment(li)
+# print(li)
+
+# REVERSE LIST
+# def reverse_l(li):
+#     length=len(li)
+#     for i in range(length//2):
+#         li[i],li[length-i-1]=li[length-i-1],li[i]
+#         return
+# li=[1,2,3,4,5,6]
+# reverse_l(li)
+# print(li)
+
+def reverse_l(li):
+    length=len(li)
+    for i in range(length//2):
+        li[i],li[-i-1]=li[-i-1],li[i]
+        return
+li=[1,2,3,4,5,6]
+reverse_l(li)
+print(li)
+
+
+
+
+
+
+
+
+
+
